@@ -18,10 +18,7 @@ body {
   justify-content: center;
   align-items: center;
 }
-.principal {
-  width: 100%;
-  height: 100vh;
-}
+
 header {
   width: 100%;
   height: 4rem;
@@ -29,7 +26,71 @@ header {
   justify-content: space-between;
   align-items: center;
   border-bottom: solid 1px #fff;
-}
+  
+  }
+  .sobre-curriculo{    
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-bottom: 1px solid #fff;
+    flex-wrap: wrap;
+    
+  }
+  .info{
+    font-size: 15pt;
+  }
+  .img-curriculo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+  }
+  .front img{
+    margin-bottom: 20px;
+    background-color: rgb(255, 255, 255);
+    width: 50px;
+    border-radius: 50%;
+  }
+  .quem-sou{
+padding: 30px;
+display: flex;
+justify-content: space-around;
+    flex: 1;
+  }
+  .texto-curriculo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 700px;
+    border: 2px solid rgb(255, 0, 0);
+    height: 300px;
+    border-radius: 50px;
+  }
+  .front{
+    border-radius: 50%;
+  }
+
+  #imagem-curriculo {
+    border-radius: 50%;
+    width: 250px;
+    margin-bottom: 20px;
+    border: solid 2px red;   
+  }
+  .img-curriculo{
+
+  }
+  .contato span{
+    padding: 5px;
+    margin-left: 20px;
+    cursor: pointer;
+    
+  }
+
 #tittle {
   margin-left: 40px;
   font-weight: 600;
@@ -239,4 +300,13 @@ a{
   display: flex;
   justify-content: space-around;
   font-size: small;
+}
+footer{
+  color: #fff;
+  background-color: rgba(255, 255, 255, 0.438);
+  width: 100%;
+  height: 50px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
